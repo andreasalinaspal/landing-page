@@ -1,77 +1,332 @@
+@charset "UTF-8";
 * {
-    padding: 0%;
-    margin: 0%;
-    font-family:'Raleway', sans-serif;
+  padding: 0%;
+  margin: 0%;
+  font-family: "Raleway", sans-serif;
 }
 
-.PrimeraFila {
-    font-weight: 600;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color:forestgreen;
-    color: ghostwhite;
-  
-
-   }
-  
-.autor {
-    font: bold;
-    font-family:Arial, Helvetica, sans-serif;
-    background-color:darkgreen;
-    color: azure;
-    font-size: 16px;
-    text-align: center;
-}
-
-.portada {
-    background-image: url(../images/photo-1508514177221-188b1cf16e9d.jpg);
-    background-position: bottom;
-    
-    width: 100%;
-    background-size: cover;
-    height: 450px;
-    margin: auto;   
+.encabezado__portada {
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  background-image: url(../images/photo-1508514177221-188b1cf16e9d.jpg);
+  background-position: bottom;
+  width: 100vw;
+  background-size: cover;
 }
 
 .ParteSuperior {
-    display: flex;
-    align-items: center;
-   justify-content: center;
-
-
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.encabezado ul {
-     color: cornsilk;
-
-    
-    
+.boton button {
+  background: #2F5F4A;
+  color: ghostwhite;
+  width: 150px;
+  height: 40px;
+  border-radius: 7px;
 }
 
-.secciones input {
-    background-color: darkgreen;
-    color: ghostwhite;
-    border-radius: 10px;
-    padding: 10px;
-    margin-left: 10px;
-}
-
-.secciones {
-    margin: 20px;
-    list-style-type: none;
-    list-style-position: inside;
-    
-   ;
+.encabezado__portada .boton {
+  margin-right: 100px;
 }
 
 .secciones li {
-    text-decoration: none;
-    text-transform: none;
-    padding: 0 15;
-    display: inline-block;   
+  display: inline-block;
+}
+
+.secciones a {
+  margin: 30px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
 }
 
 .logo {
-    width: 150px; 
-    margin: 15px;
-    
+  width: 120px;
+  margin: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
 }
+
+.encabezado__logo {
+  margin-left: 60px;
+}
+
+.ParteSuperior .logoinicio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+/* Fin de Encabezado*/
+/* Seccion 1: Productos */
+.NProductos .titulo1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#siteProductos h3 {
+  font-weight: 600;
+}
+
+.seccion1 .paneles, .seccion1 .bombas, .seccion1 .inversores, .seccion1 .baterias {
+  background-color: #E0E6DF;
+  height: 200px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.productos__individuales {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.productos__individuales .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.productos__individuales p {
+  color: #2F5F4A;
+  font-weight: 700;
+}
+
+.productos__individuales span {
+  margin-top: 80px;
+  font-size: 13px;
+}
+
+/* Fin de Sección 1*/
+/* Seccion 3: Nuestros proyectos */
+.seccion3 {
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  margin-top: 50px;
+  width: auto;
+  margin-bottom: 100px;
+}
+
+.proyecto1 img, .proyecto2 img, .proyecto3 img {
+  width: 10px;
+}
+
+.proyecto3 img {
+  height: 300px;
+}
+
+.seccion3 .titulo3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 20px;
+}
+
+.proyecto1:hover img {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+
+.proyecto2:hover img {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+
+.proyecto3:hover img {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+
+.seccion3 .vertodo {
+  margin-right: 20px;
+}
+
+.seccion3 .proyecto1 .descrip1 {
+  background-color: #E0E6DF;
+  padding: 10px;
+}
+
+.seccion3 .proyecto2 .descrip2 {
+  background-color: #E0E6DF;
+  padding: 10px;
+}
+
+.seccion3 .proyecto3 .descrip3 {
+  background-color: #E0E6DF;
+  padding: 10px;
+}
+
+/* Fin de Sección 3
+
+Sección 4: Nuestros proyectos */
+.cotiza__seccion4 {
+  background-color: #FFF8E5;
+  padding: 30px;
+  height: 200px;
+  width: 400px;
+  margin-top: 50px;
+}
+
+.cotiza__seccion4 h3 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #2F5F4A;
+  padding-bottom: 40px;
+}
+
+.cotiza__seccion4 p {
+  font-size: 13px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 30px;
+}
+
+.seccion4 form {
+  background-color: #8AAE9E;
+  width: 400px;
+  padding: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -ms-inline-grid;
+  display: inline-grid;
+}
+
+.seccion4 .formulario label {
+  color: white;
+  font-weight: 800;
+}
+
+.formulario input {
+  width: 300px;
+  height: 20px;
+}
+
+.seccion4 .botoncotizar {
+  background-color: #2F5F4A;
+  padding: 10px;
+  color: white;
+  border-radius: 8px;
+  font-weight: 700;
+  width: 50%;
+  height: 40px;
+  text-align: center;
+}
+
+.autor {
+  font: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: darkgreen;
+  color: azure;
+  text-align: center;
+  width: 100vw;
+}
+
+.autor h3 {
+  font-size: 12px;
+}
+
+/* Seccion 3: Nuestros proyectos */
+.seccion3 {
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  margin-top: 50px;
+  width: auto;
+  margin-bottom: 100px;
+}
+
+.proyecto1 img, .proyecto2 img, .proyecto3 img {
+  width: 100%;
+}
+
+.proyecto3 img {
+  height: 475px;
+}
+
+.seccion3 .titulo3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 20px;
+}
+
+.proyecto1:hover img {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+
+.proyecto2:hover img {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+
+.proyecto3:hover img {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+
+.seccion3 .vertodo {
+  margin-right: 20px;
+}
+
+.seccion3 .proyecto1 .descrip1 {
+  background-color: #E0E6DF;
+  padding: 10px;
+}
+
+.seccion3 .proyecto2 .descrip2 {
+  background-color: #E0E6DF;
+  padding: 10px;
+}
+
+.seccion3 .proyecto3 .descrip3 {
+  background-color: #E0E6DF;
+  padding: 10px;
+}
+
+/* Fin de Sección 3 */
+/*# sourceMappingURL=proy.estilos.css.map */

@@ -140,7 +140,7 @@
 }
 
 .seccion2 .titulo1 h1 {
-  font-size: 15px;
+  font-size: 5px;
   line-height: 20px;
   padding-bottom: 20px;
 }
@@ -227,9 +227,8 @@
   padding: 10px;
 }
 
-/* Fin de Sección 3
-
-Sección 4: Nuestros proyectos */
+/* Fin de Sección 3 */
+/*Sección 4: Nuestros proyectos */
 .cotiza__seccion4 {
   background-color: #FFF8E5;
   padding: 30px;

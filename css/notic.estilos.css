@@ -1,77 +1,124 @@
+@charset "UTF-8";
 * {
-    padding: 0%;
-    margin: 0%;
-    font-family:'Raleway', sans-serif;
+  padding: 0%;
+  margin: 0%;
+  font-family: "Raleway", sans-serif;
 }
 
-.PrimeraFila {
-    font-weight: 600;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color:forestgreen;
-    color: ghostwhite;
-  
-
-   }
-  
-.autor {
-    font: bold;
-    font-family:Arial, Helvetica, sans-serif;
-    background-color:darkgreen;
-    color: azure;
-    font-size: 16px;
-    text-align: center;
-}
-
-.portada {
-    background-image: url(../images/mother-with-her-little-son-by-solar-panels.jpg);
-    background-position: center;
-    
-    width: 100%;
-    background-size: cover;
-    height: 450px;
-    margin: auto;   
+.encabezado__portada {
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  background-image: url(../images/mother-with-her-little-son-by-solar-panels.jpg);
+  background-position: center;
+  width: 100vw;
+  background-size: cover;
 }
 
 .ParteSuperior {
-    display: flex;
-    align-items: center;
-   justify-content: center;
-
-
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.encabezado ul {
-     color: cornsilk;
-
-    
-    
+.boton button {
+  background: #2F5F4A;
+  color: ghostwhite;
+  width: 150px;
+  height: 40px;
+  border-radius: 7px;
 }
 
-.secciones input {
-    background-color: darkgreen;
-    color: ghostwhite;
-    border-radius: 10px;
-    padding: 10px;
-    margin-left: 10px;
-}
-
-.secciones {
-    margin: 20px;
-    list-style-type: none;
-    list-style-position: inside;
-    
-   ;
+.encabezado__portada .boton {
+  margin-right: 100px;
 }
 
 .secciones li {
-    text-decoration: none;
-    text-transform: none;
-    padding: 0 15;
-    display: inline-block;   
+  display: inline-block;
+}
+
+.secciones a {
+  margin: 30px;
+  text-decoration: none;
+  color: #2F5F4A;
+  font-weight: 700;
 }
 
 .logo {
-    width: 150px; 
-    margin: 15px;
-    
+  width: 120px;
+  margin: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
 }
+
+.encabezado__logo {
+  margin-left: 60px;
+}
+
+.ParteSuperior .logoinicio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+/* Fin de Encabezado*/
+/* Seccion 1: Productos */
+.NProductos .titulo1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#siteProductos h3 {
+  font-weight: 600;
+}
+
+.seccion1 .paneles, .seccion1 .bombas, .seccion1 .inversores, .seccion1 .baterias {
+  background-color: #E0E6DF;
+  height: 200px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.productos__individuales {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.productos__individuales .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.productos__individuales p {
+  color: #2F5F4A;
+  font-weight: 700;
+}
+
+.productos__individuales span {
+  margin-top: 80px;
+  font-size: 13px;
+}
+
+/* Fin de Sección 1*/
+/*# sourceMappingURL=notic.estilos.css.map */

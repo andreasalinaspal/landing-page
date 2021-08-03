@@ -1,108 +1,151 @@
 * {
-    padding: 0%;
-    margin: 0%;
-    font-family:'Raleway', sans-serif;
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Raleway', sans-serif;
 }
 
 .PrimeraFila {
-    font-weight: 600;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color:forestgreen;
-    color: ghostwhite;
-  
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: forestgreen;
+  color: ghostwhite;
+}
 
-   }
-  
 .autor {
-    font: bold;
-    font-family:Arial, Helvetica, sans-serif;
-    background-color:darkgreen;
-    color: azure;
-    font-size: 16px;
-    text-align: center;
+  font: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: darkgreen;
+  color: azure;
+  font-size: 16px;
+  text-align: center;
 }
 
 .portada {
-    justify-content: stretch;
-    background-image: url(../images/man-worker-in-the-firld-by-the-solar-panels.jpg);
-    background-position: center;
-    width: 100vw;
-    background-size: cover;
-    height: 450px;
-    margin: auto;   
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  background-image: url(../images/man-worker-in-the-firld-by-the-solar-panels.jpg);
+  background-position: center;
+  width: 100vw;
+  background-size: cover;
+  height: 450px;
+  margin: auto;
 }
 
 .portada .boton input {
-    background: green;
-        color: ghostwhite;
-    border-radius: 10px;
-    padding: 10px;
-    margin-left: 10px;
+  background: green;
+  color: ghostwhite;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 10px;
 }
 
 .ParteSuperior {
-    height: 120px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-   }
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 
 .encabezado ul {
-     color: cornsilk;
- 
+  color: cornsilk;
 }
 
 .secciones input {
-    background-color: darkgreen;
-    color: ghostwhite;
-    border-radius: 10px;
-    padding: 10px;
-    margin-left: 10px;
+  background-color: darkgreen;
+  color: ghostwhite;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 10px;
 }
 
 .secciones {
-    margin: 20px;
-    list-style-type: none;
-    list-style-position: inside;
-    
-   ;
+  margin: 20px;
+  list-style-type: none;
+  list-style-position: inside;
 }
 
-
 .logo {
-    width: 150px; 
-    margin: 15px;
+  width: 150px;
+  margin: 15px;
 }
 
 .portada .boton {
-    margin-right: 100px;
+  margin-right: 100px;
 }
 
 .secciones li {
-    display: inline-block;   
+  display: inline-block;
 }
 
 .secciones a {
-    margin: 30px;
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
+  margin: 30px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
 }
 
 .logo {
-    width: 120px; 
-    margin: 15px;
-    display: flex;
-    justify-content:start;
-
+  width: 120px;
+  margin: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
 }
+
 .logoinicio {
-    margin-left: 60px;
+  margin-left: 60px;
 }
 
 .ParteSuperior .logoinicio {
-    display: flex;
-    justify-content: start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
 }
+
 /* Fin de Encabezado*/
+/*Inicio Seccion 1*/
+.texto_servicios {
+  margin-bottom: 50px;
+}
+
+.img_instalacion img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.img_construccion img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.img_asesoramiento img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.img_logistica img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+/*# sourceMappingURL=servicios.estilos.css.map */

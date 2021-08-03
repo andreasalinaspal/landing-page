@@ -1,0 +1,120 @@
+@import "variables";
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: $fuentes;
+}
+
+ .encabezado__portada {
+    justify-content: stretch;
+    background-image: url(../images/mother-with-her-little-son-by-solar-panels.jpg);
+    background-position: center;
+    width: 100vw;
+    background-size: cover;
+    
+}
+
+.ParteSuperior {
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+
+.boton button {
+    background: $color;
+    color: ghostwhite;
+    width: 150px;
+    height: 40px;
+    border-radius: 7px;
+
+
+}
+
+.encabezado__portada .boton {
+    margin-right: 100px;
+}
+
+.secciones li {
+    display: inline-block;   
+}
+
+.secciones a {
+    margin: 30px;
+    text-decoration: none;
+    color: $color;
+    font-weight: 700;
+}
+
+.logo {
+    width: 120px; 
+    margin: 15px;
+    display: flex;
+    justify-content:start;
+
+}
+.encabezado__logo {
+    margin-left: 60px;
+}
+
+.ParteSuperior .logoinicio {
+    display: flex;
+    justify-content: start;
+}
+/* Fin de Encabezado*/
+
+/* Seccion 1: Productos */
+
+
+
+.NProductos .titulo1{
+    text-align: center;
+    margin-top: 40px;
+}
+
+#siteProductos h3 {
+
+    font-weight: 600;
+
+}
+
+.seccion1 .paneles, .seccion1 .bombas, .seccion1 .inversores, .seccion1 .baterias {
+
+    background-color: #E0E6DF;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.productos__individuales {
+
+    margin-top: 60px;
+    margin-bottom: 60px;
+   
+}
+
+
+.productos__individuales .container {
+
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    
+}
+
+.productos__individuales p {
+    color: #2F5F4A;
+    font-weight: 700;
+}
+.productos__individuales span {
+    margin-top: 80px;
+    font-size: 13px;
+}
+
+
+/* Fin de Sección 1*/
