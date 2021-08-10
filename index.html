@@ -17,62 +17,62 @@
 <body>
 	
 	<!-- Encabezado -->
-		<div id="siteEncabezado" class="encabezado container-fluid px-0"> 
-				
-				<div class="encabezado__portada" style="height: 500px;"> 
-				<div class="ParteSuperior">
+
+	<header class="header"> 
+		<div class="bg-header">
+			<div class="container"> 
+				<nav class="nav-header navbar navbar-expand-lg navbar-dark">
 					<div class="encabezado"> 
-					<a href="index.html">
-					<img src="images/logo.png" class="logo"></a>
-					</div>
+						<a href="index.html">
+						<img src="images/logo.png" class="logo"></a>
+						</div>
 				
-				<div>
-					<ul class="secciones">
-						<li><a href="index.html"> Inicio </a></li>
-						<li><a href="nosotros.html"> Nosotros </a></li>
-						<li><a href="servicios.html"> Servicios </a></li>
-						<li><a href="proyectos.html"> Proyectos </a></li>
-						<li><a href="noticias.html"> Noticias </a></li>
-					
-					</ul>
-					
-				</div>
-
-			
-				<div class="boton">	
-					<!-- Button trigger modal -->
-						<button type="button" value="Contáctanos" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-							Contáctanos
-						</button>
-  
-						<!-- Modal -->
-						<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-							<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-								<h5 class="modal-title" id="exampleModalLabel">Función desactivada</h5>
-								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-									<span aria-hidden="true">&times;</span>
-								</button>
-								</div>
-								<div class="modal-body">
-								Esta función se encuentra en mantenimiento
-								</div>
-								<div class="modal-footer">
-								<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-							
-								</div>
-							</div>
-							</div>
-  						</div>
-				</div>
-				</div>
-				
-				</div>
-
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>						  
+				</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<div class="navg navbar-nav w-100 justify-content-center "> 
 								
-			
-	</div>
+								<a class="nav-item nav-link active" href="index.html">Inicio </a>
+								<a class="nav-item nav-link" href="nosotros.html">Nosotros</a>
+								<a class="nav-item nav-link" href="servicios.html">Servicios</a>
+								<a class="nav-item nav-link" href="proyectos.html">Proyectos</a>
+								<a class="nav-item nav-link" href="noticias.html">Noticias</a>						
+						</div>
+					</div>
+					<div class="boton">	
+						<!-- Button trigger modal -->
+							<button type="button" value="Contáctanos" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+								Contáctanos
+							</button>
+	  
+							<!-- Modal -->
+							<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+								<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLabel">Función desactivada</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+									</div>
+									<div class="modal-body">
+									Esta función se encuentra en mantenimiento
+									</div>
+									<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+								
+									</div>
+								</div>
+								</div>
+							  </div>
+					</div>
+				  </nav>
+			</div>
+		
+
+</div>
+</header>
 <!-- Fin de Encabezado -->	
 
 <!-- Sección 1: Productos -->	
@@ -81,16 +81,16 @@
 						<p class="text-center mb-4"> Lorem ipsum dolor sit amet </p>
 						
 							<div class="productos__individuales seccion1 container row mx-auto d-flex justify-content-center">
-								<div class="paneles col-xs-12 col-sm-6 col-md-4 col-lg-2 w-25 p-3"><p> Paneles Solares </p>
+								<div class="paneles col-xs-12 col-sm-6 col-md-4 col-lg-2 p-3"><p> Paneles Solares </p>
 								<span class="textosec"> Lorem ipsum dolor sit amet, consetetur </span>
 								</div>
-								<div class="bombas col-xs-12 col-sm-6 col-md-4 col-lg-2 w-25 p-3"><p> Bombas Solares </p>
+								<div class="bombas col-xs-12 col-sm-6 col-md-4 col-lg-2 p-3"><p> Bombas Solares </p>
 								<span class="textosec"> Lorem ipsum dolor sit amet, consetetur </span>
 								</div>
-								<div class="inversores col-xs-12 col-sm-6 col-md-4 col-lg-2 w-25 p-3"><p> Inversores Solares </p>
+								<div class="inversores col-xs-12 col-sm-6 col-md-4 col-lg-2  p-3"><p> Inversores Solares </p>
 								<span class="textosec"> Lorem ipsum dolor sit amet, consetetur </span>
 								</div>
-								<div class="baterias col-xs-12 col-sm-6 col-md-4 col-lg-2 w-25 p-3"><p> Baterías </p>
+								<div class="baterias col-xs-12 col-sm-6 col-md-4 col-lg-2 p-3"><p> Baterías </p>
 								<span class="textosec"> Lorem ipsum dolor sit amet, consetetur </span>
 									</div>
 							</div>
@@ -127,7 +127,7 @@
 							</div>
 						
 					<div class="proyectos d-flex justify-content-center"> 
-						<div class="proyecto1 col-lg-4"> 
+						<div class="proyecto1 col-xs-12 col-sm-6 col-md-4 col-lg-4"> 
 							<div class=" img1"> 
 							<img src="images/118634260_181289853438394_7477864286934111696_n.jpg">
 							</div>
@@ -137,14 +137,14 @@
 							</div>
 						
 						</div>
-						<div class="proyecto2 col-lg-4"> 
+						<div class="proyecto2 col-xs-12 col-sm-6 col-md-4 col-lg-4"> 
 							
 							<img src="images/152831469_261149428785769_273264091603018180_n.jpg" >
 							<div class="descrip2"> 
 							<p style="color: #2F5F4A; font-weight: 700;"> Piura Est. </p>
 							<p> Lorem ipsum dolor sit </p> <span></span></div>
 						</div>
-						<div class="proyecto3 col-lg-4"> 
+						<div class="proyecto3 col-xs-12 col-sm-6 col-md-4 col-lg-4"> 
 							<img src="images/180814071_301289811438397_2377596540999021177_n.jpg">
 							<div class="descrip3"> 
 							<p style="color: #2F5F4A; font-weight: 700;"> Chosica </p>
@@ -165,7 +165,7 @@
 						</div>
 
 					 
-						<div class="formulario">
+						<div class="formulario ">
 						<form>
 						
 						
@@ -180,10 +180,10 @@
 								
 								<option value="a"> Piura </option> <option value="b"> Chiclayo </option> <option value="c"> Lima </option> 
 								<option value="a"> Arequipa </option> <option value="b"> Apurimac </option> <option value="c"> Tumbes </option> 
-							</select> <br>
-								<div>
-									<input type="checkbox">
-									<label> Acepto los términos y condiciones de <strong> Villac Energy </strong></label><br>
+							</select>
+								<div class="checkbox-term d-flex justify-content-center mt-4 mb-4">
+									<input type="checkbox" class="mr-2">
+									<label class="terms"> Acepto los términos y condiciones de Villac Energy </label>
 								</div>
 							<input class="botoncotizar" type="submit" value="Cotizar">
 							
@@ -194,7 +194,7 @@
 			 	</form>
 			 	 <!-- Pie de Página -->
 
-					 <div class="autor container col-12">
+					 <div class="autor container col-12 ">
 
 					 	<h3 href=""> Derechos Copyright Andrea Salinas </h3>
 

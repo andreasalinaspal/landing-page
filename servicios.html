@@ -16,33 +16,60 @@
 </head>
 <body>
 		<!-- Encabezado -->
-		<div id="encabezado"> 
-				
-			
 
-			<div class="portada">
-			<div class="ParteSuperior">
-				<div class="logoinicio"> 
-				<a href="inicio.html">
-				<img src="images/logo.png" class="logo"></a>
-				</div>
-			<div>
-				<ul class="secciones">
-					<li><a href="index.html"> Inicio </a></li>
-					<li><a href="nosotros.html"> Nosotros </a></li>
-					<li><a href="servicios.html"> Servicios </a></li>
-					<li><a href="proyectos.html"> Proyectos </a></li>
-					<li><a href="noticias.html"> Noticias </a></li>
-				
-				</ul>
-				
+	<header class="header"> 
+		<div class="bg-header">
+			<div class="container"> 
+				<nav class="navbar navbar-expand-lg d-flex justify-content-between ">
+					<div class="encabezado"> 
+						<a href="index.html">
+						<img src="images/logo.png" class="logo"></a>
+						</div>
+					
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<div class="navg navbar-nav w-100 justify-content-center "> 
+								
+								<a class="nav-item nav-link active" href="index.html">Inicio </a>
+								<a class="nav-item nav-link" href="nosotros.html">Nosotros</a>
+								<a class="nav-item nav-link" href="servicios.html">Servicios</a>
+								<a class="nav-item nav-link" href="proyectos.html">Proyectos</a>
+								<a class="nav-item nav-link" href="noticias.html">Noticias</a>						
+						</div>
+					</div>
+					<div class="boton">	
+						<!-- Button trigger modal -->
+							<button type="button" value="Contáctanos" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+								Contáctanos
+							</button>
+	  
+							<!-- Modal -->
+							<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+								<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLabel">Función desactivada</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+									</div>
+									<div class="modal-body">
+									Esta función se encuentra en mantenimiento
+									</div>
+									<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+								
+									</div>
+								</div>
+								</div>
+							  </div>
+					</div>
+				  </nav>
 			</div>
-			<div class="boton">
-				<input type="button" value="Contáctanos">
-			</div>
-			</div>
-			
-			</div>
+		
+
+</div>
+</header>
+<!-- Fin de Encabezado -->
 <!-- Inicio nuestros servicios -->	
 			<div id="siteServicios" class="productos py-4 seccion1 mb-2" >
  
