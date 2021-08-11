@@ -7,9 +7,9 @@
 
  .header {
     background-image: url(../images/vivint-solar-_ciUqT1HEuY-unsplash.jpg);
-    background-position: bottom;
+    background-position: center;
     width: 100%;
-    min-height: 50vw;
+    min-height: 42vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,7 +23,10 @@
     width: 150px;
     height: 40px;
     border-radius: 7px;
+    box-shadow: #8AAE9E;
 }
+
+
 
 
 .header .container {
@@ -140,12 +143,13 @@
 }
 
 
-.seccion2 span input {
+.seccion2 span button {
     background-color: $color;
     padding: 10px;
     color: white;
     border-radius: 8px;
-    font-weight: 700;
+    font-weight: 500;
+    
 }
 
 /* Fin de Sección 2*/
@@ -160,13 +164,14 @@
     margin-bottom: 100px;
 }
 
-
+.seccion3 .vertodo a {
+    text-decoration: none;
+    color: $color;
+}
 .proyecto1 img, .proyecto2 img, .proyecto3 img {
     width: 10px;
 }
-.proyecto3 img {
-    height: 340px;
-}
+
 .seccion3 .titulo3 {
     display: flex;
     justify-content: space-between;
@@ -335,8 +340,12 @@ transform: scale(1.1,1.1);
 @media (max-width:768px) {
     .header .boton{
         display: none;
+        
     }   
-
+     
+    .header {
+        background-image: none;
+    }
     .bg-header {
         background-color: rgb(160, 197, 162);
     }
@@ -348,13 +357,14 @@ transform: scale(1.1,1.1);
     .seccion2 .titulo1 {
         margin-top:0;
     }
-    .seccion3 .proyectos .proyecto3 img {
-
-        height: 139px;
-    }
+    
 
     .cotiza__seccion4 {
         margin-top: 0
+    }
+
+    .seccion3 .proyectos {
+        margin: 40px;
     }
 }
 

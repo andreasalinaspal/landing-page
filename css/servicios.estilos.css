@@ -169,4 +169,19 @@
   height: 200px;
   border-radius: 100%;
 }
+
+@media (max-width: 768px) {
+  .header .boton {
+    display: none;
+  }
+  .header {
+    background-image: none;
+  }
+  .bg-header {
+    background-color: #a0c5a2;
+  }
+  .navg .nav-item {
+    margin: 0;
+  }
+}
 /*# sourceMappingURL=servicios.estilos.css.map */

@@ -76,9 +76,6 @@
 }
 /* Fin de Encabezado*/
 
-/* Seccion 1: Productos */
-
-
 
 .NProductos .titulo1{
     text-align: center;
@@ -127,10 +124,6 @@
 }
 
 
-/* Fin de Sección 1*/
-
-/* Seccion 3: Nuestros proyectos */
-
 .seccion3 {
     
     justify-content: stretch;
@@ -143,29 +136,12 @@
 .proyecto1 img, .proyecto2 img, .proyecto3 img {
     width: 10px;
 }
-.proyecto3 img {
-    height: 300px;
-}
+
 .seccion3 .titulo3 {
     display: flex;
     justify-content: space-between;
     margin-left: 20px;
-
 }
-.proyecto1:hover img { 
-transform: scale(1.1,1.1);
-transition: all 500ms;
-}
-
-.proyecto2:hover img { 
-    transform: scale(1.1,1.1);
-    transition: all 500ms;
-    }
-
-.proyecto3:hover img { 
-transform: scale(1.1,1.1);
- transition: all 500ms;
-  }
 
 .seccion3 .vertodo {
  margin-right: 20px;
@@ -277,29 +253,13 @@ Sección 4: Nuestros proyectos */
 .proyecto1 img, .proyecto2 img, .proyecto3 img {
     width: 100%;
 }
-.proyecto3 img {
-    height: 475px;
-}
+
 .seccion3 .titulo3 {
     display: flex;
     justify-content: space-between;
     margin-left: 20px;
 
 }
-.proyecto1:hover img { 
-transform: scale(1.1,1.1);
-transition: all 500ms;
-}
-
-.proyecto2:hover img { 
-    transform: scale(1.1,1.1);
-    transition: all 500ms;
-    }
-
-.proyecto3:hover img { 
-transform: scale(1.1,1.1);
- transition: all 500ms;
-  }
 
 .seccion3 .vertodo {
  margin-right: 20px;
@@ -320,3 +280,22 @@ transform: scale(1.1,1.1);
     padding: 10px;
 }
 /* Fin de Sección 3 */
+
+@media (max-width:768px) {
+    .header .boton{
+        display: none;
+    }   
+
+    .header {
+        background-image: none;
+    }
+    .bg-header {
+        background-color: rgb(160, 197, 162);
+    }
+   
+    .navg .nav-item {
+        margin: 0;
+    }
+}
+
+

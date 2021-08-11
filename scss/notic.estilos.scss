@@ -136,7 +136,7 @@ a:focus, a:hover, .portfolio-cat a:hover, .footer -menu li a:hover {
     text-decoration: none;
 }
 .section-title h2 {
-  position: relative;
+  
   margin-bottom: 45px;
   display: inline-block;
   font-weight: 600;
@@ -157,7 +157,7 @@ a:focus, a:hover, .portfolio-cat a:hover, .footer -menu li a:hover {
   margin-bottom: 10px;
 }
 .blog-area {
-    background: #F8F9FA;
+    background: white;
     min-height: 100vh;
 }
 .blog-wrapper {
@@ -218,23 +218,22 @@ a:focus, a:hover, .portfolio-cat a:hover, .footer -menu li a:hover {
 .embed-responsive {
   margin-bottom: 20px;
 }
-.meta-info ul li:first-child{padding-left:0}
-.meta-info ul li a{color:#ff5e14}
-.meta-info ul li a:hover{color:#444}
-.meta-info ul li::before {
-  border: 1px solid #999;
-  border-radius: 5px;
-  content: "";
-  height: 5px;
-  left: -4px;
-  position: absolute;
-  top: 6px;
-  width: 5px;
-}
-.meta-info ul li:first-child:before{display:none}
-.blog-thumb img {
-  width: 100%;
-}
-.link-box a {
-  font-weight: 600;
-}
+
+
+@media (max-width:768px) {
+  .header .boton{
+      display: none;
+  }   
+
+  .header {
+      background-image: none;
+  }
+  .bg-header {
+      background-color: rgb(160, 197, 162);
+  }
+ 
+  .navg .nav-item {
+      margin: 0;
+  }
+
+  }

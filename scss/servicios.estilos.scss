@@ -158,3 +158,21 @@
     height: 200px;
     border-radius: 100%;
 }
+
+@media (max-width:768px) {
+    .header .boton{
+        display: none;
+    }   
+
+    .header {
+        background-image: none;
+    }
+    .bg-header {
+        background-color: rgb(160, 197, 162);
+    }
+   
+    .navg .nav-item {
+        margin: 0;
+    }
+    
+}

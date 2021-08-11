@@ -87,7 +87,6 @@
 }
 
 /* Fin de Encabezado*/
-/* Seccion 1: Productos */
 .NProductos .titulo1 {
   text-align: center;
   margin-top: 40px;
@@ -127,8 +126,6 @@
   font-size: 13px;
 }
 
-/* Fin de Sección 1*/
-/* Seccion 3: Nuestros proyectos */
 .seccion3 {
   -webkit-box-pack: stretch;
       -ms-flex-pack: stretch;
@@ -142,10 +139,6 @@
   width: 10px;
 }
 
-.proyecto3 img {
-  height: 300px;
-}
-
 .seccion3 .titulo3 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -154,27 +147,6 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-left: 20px;
-}
-
-.proyecto1:hover img {
-  -webkit-transform: scale(1.1, 1.1);
-          transform: scale(1.1, 1.1);
-  -webkit-transition: all 500ms;
-  transition: all 500ms;
-}
-
-.proyecto2:hover img {
-  -webkit-transform: scale(1.1, 1.1);
-          transform: scale(1.1, 1.1);
-  -webkit-transition: all 500ms;
-  transition: all 500ms;
-}
-
-.proyecto3:hover img {
-  -webkit-transform: scale(1.1, 1.1);
-          transform: scale(1.1, 1.1);
-  -webkit-transition: all 500ms;
-  transition: all 500ms;
 }
 
 .seccion3 .vertodo {
@@ -281,10 +253,6 @@ Sección 4: Nuestros proyectos */
   width: 100%;
 }
 
-.proyecto3 img {
-  height: 475px;
-}
-
 .seccion3 .titulo3 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -293,27 +261,6 @@ Sección 4: Nuestros proyectos */
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-left: 20px;
-}
-
-.proyecto1:hover img {
-  -webkit-transform: scale(1.1, 1.1);
-          transform: scale(1.1, 1.1);
-  -webkit-transition: all 500ms;
-  transition: all 500ms;
-}
-
-.proyecto2:hover img {
-  -webkit-transform: scale(1.1, 1.1);
-          transform: scale(1.1, 1.1);
-  -webkit-transition: all 500ms;
-  transition: all 500ms;
-}
-
-.proyecto3:hover img {
-  -webkit-transform: scale(1.1, 1.1);
-          transform: scale(1.1, 1.1);
-  -webkit-transition: all 500ms;
-  transition: all 500ms;
 }
 
 .seccion3 .vertodo {
@@ -336,4 +283,18 @@ Sección 4: Nuestros proyectos */
 }
 
 /* Fin de Sección 3 */
+@media (max-width: 768px) {
+  .header .boton {
+    display: none;
+  }
+  .header {
+    background-image: none;
+  }
+  .bg-header {
+    background-color: #a0c5a2;
+  }
+  .navg .nav-item {
+    margin: 0;
+  }
+}
 /*# sourceMappingURL=proy.estilos.css.map */
